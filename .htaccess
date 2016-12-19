@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# Handle Errors
+ErrorDocument 404 /404.php
+
+# Url renaming
+RewriteRule ^about$ /views/about.php [L,NC]
+RewriteRule ^contact$ /views/contact.php [L,NC]
+RewriteRule ^instagram$ /views/instagram.php [L,NC]
+</IfModule>
+
+

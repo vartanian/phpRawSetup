@@ -1,0 +1,18 @@
+section.embedded{
+    border: 1px solid;
+}
+section.embedded iframe {
+    width: 48% !important;
+    float: left;
+    margin: 0 1% !important;
+}
+section.apiGroup{
+	width: 100%;
+	border:1px solid black;
+	padding: 3%;
+}
+a.instaLink{
+    padding: 20px !important;
+    color: #fff;
+    background-color: red !important;
+}
